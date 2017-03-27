@@ -1,0 +1,117 @@
+<html>
+  <head>
+  <meta charset="utf-8">
+   <title>Emerson Turner III|Contact</title>
+   <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+<header>
+  <nav>
+    <a href="index.html">Home</a>|
+    <a href="portfolio.html">Portfolio</a>
+    <a href="contact.html">Contact</a>
+  </nav>
+</header>
+<h1>Contact Me</h1>
+<div>
+  <form method="POST" action="http://formspree.io/em3city@gmail.com">
+    <input type="email" name="email" placeholder="Your email">
+    <textarea name="message" placeholder="Your message"></textarea>
+    <button>type="submit">Send</button>
+  </form>
+</div>
+<a id="mail" href="mailto:em3city@gmail.com">send me email</a>
+<table>
+  <tr>
+    <td><a href="http://www.facebook.com/Emthethird">Facebook</a></td>
+    <td><a href="https://twitter.com/emthethird"></a></td>
+    <td><a href="www.linkedin.com/in/emerson-turner-1a7a0714"></a></td>
+  </tr>
+</table>
+<form action="https://formspree.io/em3city@gmail.com" method="POST">
+  <div>
+    <input type="text" name="name" placeholder="Name">
+  </div>
+  <div>
+    <input type="email" name="_replyto" placeholder="Email">
+  </div>
+  <div>
+    <textarea row="50" cols="25" placeholder="Message"></textarea>
+  </div>
+  <div>
+    <input type="submit" value="send">
+  </div>
+</form>
+  </body>
+</html>
+style.css
+body {
+  background-color: blue;
+font-family:arial;
+text-align:center;
+height:100%;
+display:block;
+
+}
+
+div {
+  background-color:red;
+  border:4px solid black;
+  width:25%;
+  margin-left:auto;
+  margin-right:auto;
+
+}
+
+#mail {
+  border:4px solid black;
+  width:25%;
+  background-color:orange;
+  float:left;
+
+}
+
+footer {
+  overflow:hidden;
+  margin:0;
+  padding:0;
+  background-color:purple;
+}
+
+nav {
+  overflow:hidden;
+  margin:0;
+  padding:0;
+  background-color:green;
+}
+
+a {
+  float:left;
+  display:block;
+  color:white;
+  text-align:center;
+  padding:14px 16px;
+  text-decoration:none;
+  border-right:1px solid white;
+  font-family:sans-serif;
+}
+
+a:hover {
+  background-color:white;
+  color:black;
+}
+
+table {
+  padding-top:25px;
+  margin-left:auto;
+  margin-right:auto;
+}
+
+table a {
+  border:2px solid black;
+  background-color:yellow;
+}
+
+ul {
+  text-align:left;
+}
